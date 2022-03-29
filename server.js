@@ -1,14 +1,9 @@
 import express from "express";
-// import mongoData from "./mongoData.js";
 import mongoose from "mongoose";
 import cors from "cors";
 import Pusher from "pusher";
 import dotenv from "dotenv";
 import mongoData from "./mongoData.js";
-
-// Pass eOFWdUH4bFv6ZVLg
-// demoads
-// mongodb+srv://demoads:eOFWdUH4bFv6ZVLg@cluster0.rhlh8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 const app = express();
 const port = process.env.PORT || 4000;
